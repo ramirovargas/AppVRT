@@ -47,7 +47,7 @@ function regression(res) {
   img1 = path.join(__dirname + img1);
   img2 = path.join(__dirname + img2);
 
-  resemble(img1).compareTo(img2)
+  resemble(img1).compareTo(img2).ignoreLess()
   .onComplete((data) => {
     fs.writeFile("./output.png", data.getBuffer(), () => {
       let currTime = new Date().getTime();
