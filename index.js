@@ -10,7 +10,7 @@ let db;
 MongoClient.connect('mongodb+srv://mongouser:w9mlvPJzQOMkmdlj@cluster0-uzowf.mongodb.net/visual_reg_taller', { useNewUrlParser: true }, (err, database) => {
   if (err) return console.log(err);
   db = database.db('visual_reg_taller');
-  app.listen(3000, () => {
+  app.listen(process.env.PORT || 3000, () => {
     console.log('listening on 3000')
   })
 });
