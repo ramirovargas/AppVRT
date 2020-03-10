@@ -1,0 +1,25 @@
+{
+  "name": "visualregresionapp",
+  "version": "1.0.0",
+  "description": "VRT app",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^4.1.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mongodb": "^3.5.4",
+    "move-file": "^1.2.0",
+    "node-pre-gyp": "^0.14.0",
+    "resemblejs": "^3.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "Visual",
+    "VRT"
+  ],
+  "author": "ramiro",
+  "license": "ISC"
+}

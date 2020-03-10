@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visual Regresion</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <style>
+        body { padding-top:50px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="col-xs-12">
+        <button id="generar" type="button" name="button" class="btn" style="width: 100%;">
+          <i id="loading" class="fa fa-spinner fa-spin" style="display:none;"></i>
+          Generar reporte</button>
+      </div>
+      <div class="col-xs-12">
+        <table>
+          <thead>
+            <th>Date</th>
+            <th>Image 1</th>
+            <th>Image 2</th>
+            <th>Comparison</th>
+            <th>Additional info</th>
+          </thead>
+          <tbody id="resultados">
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="/visualreg.js" charset="utf-8"></script>
+</body>
+</html>
